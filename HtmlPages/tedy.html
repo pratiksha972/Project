@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tedy</title>
+    <link rel="stylesheet" href="tedy.css">
+    <script src="tedy.js"></script>
+</head>
+<body>
+   <div class="container">
+    <div class="card" id="item1">
+        <img src="assests/t1.jpeg" alt="">
+        <div class="title">Brown tedy</div>
+        <div>
+            <label >PRICE:</label>
+            <select >
+                <option >500</option>
+                
+            </select>
+        </div>
+        <button onclick="addToCart(item1)">Add To Cart</button>
+    </div>
+
+    <div class="card" id="item2">
+        <img src="assests/t2.jpeg" alt="">
+        <div class="title">white tedy</div>
+        <div>
+            <label >PRICE:</label>
+            <select >
+                <option >1000</option>
+
+            </select>
+        </div>
+        <button onclick="addToCart(item2)">Add To Cart</button>
+    </div>
+   </div>
+
+   <div class="cart" id="cart">
+    <div class="title">CART</div><hr/>
+    <div id="title"></div>
+
+   </div>
+</body>
+</html>
